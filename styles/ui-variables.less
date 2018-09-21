@@ -1,0 +1,91 @@
+// Colors
+
+@text-color: #cb1f14;
+@text-color-subtle: #b4b0b0;
+@text-color-highlight: #403f3f;
+@text-color-selected: @text-color-highlight;
+
+@text-color-info: #5293d8;
+@text-color-success: #079343;
+@text-color-warning: #cd700f;
+@text-color-error: #e45454;
+
+@text-color-ignored: @text-color-subtle;
+@text-color-added: @text-color-success;
+@text-color-renamed: @text-color-info;
+@text-color-modified: @text-color-warning;
+@text-color-removed: @text-color-error;
+
+@background-color-info: #1090e8;
+@background-color-success: #17ca65;
+@background-color-warning: #ffaa2c;
+@background-color-error: #c00;
+@background-color-highlight: #7C7C7C;
+@background-color-selected: #cb1f14;
+
+@app-background-color: #333;
+
+@base-background-color: #212224;
+@base-border-color: rgba(0, 0, 0, 0.5);
+
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: rgba(0, 0, 0, 0.5);
+
+@input-background-color: lighten(@tool-panel-background-color, 5%);
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: #747474;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: #161719;
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: #43484d;
+@panel-heading-border-color: fadein(@base-border-color, 10%);
+
+@overlay-background-color: #202123;
+@overlay-border-color: @background-color-highlight;
+
+@button-background-color: #2c2e2f;
+@button-background-color-hover: lighten(@button-background-color, 5%);
+@button-background-color-selected: #5c6064;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: #A09E9F;
+@tab-bar-border-color: darken(@tab-background-color-active, 10%);
+@tab-background-color: #38433B;
+@tab-background-color-active: #d4d4d4;
+@tab-border-color: #484848;
+
+@tree-view-background-color: #222;
+@tree-view-border-color: @tool-panel-border-color;
+
+@scrollbar-background-color: #403f3f; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-color: rgba(203, 31, 20, 0.5);
+
+@ui-site-color-1: @background-color-success; // green
+@ui-site-color-2: @background-color-info; // blue
+@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-4: #db2ff4; // purple
+@ui-site-color-5: #f5e11d; // yellow
+
+
+// Sizes
+
+@font-size: 11px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+@tab-height: 26px;
+
+
+// Other
+
+@font-family: system-ui;
