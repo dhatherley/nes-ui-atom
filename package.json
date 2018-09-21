@@ -1,7 +1,7 @@
 {
   "name": "retro-nes-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A UI theme for Atom based on the NES color scheme",
   "keywords": [
     "retro",
@@ -16,5 +16,4 @@
   "engines": {
     "atom": ">0.40.0"
   }
-
 }
